@@ -1,0 +1,28 @@
+
+    
+#main{
+    font-size: 12px;
+    width: 200px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: 1px solid #95989A;
+    border-radius: 2px;
+}
+
+#menu_but div{
+    cursor: pointer;
+    padding:7px;
+    text-align: center;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#menu_but div:hover{text-decoration: underline;}
+#start{background:#0080A4;}
+#stop{background:#ED242D;}
+
+#start:active {background: #006480}
+#stop:active {background: rgb(214, 3, 13)}
+
+#display{text-align: center;font-weight: bold;}
+

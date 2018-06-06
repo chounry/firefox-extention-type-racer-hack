@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "Type Racing Hacking",
+    "version": "1.0",
+  
+    "description": "Unknow description",
+    "icons": {
+      "48": "./imgs/icons/type-r-48.png"
+    },
+    "permissions":[
+        "activeTab"
+    ],
+
+    "content_scripts":[
+        {
+        "matches":["http://play.typeracer.com/"],
+        "js":["./content_scripts/jquery-3.3.1.js"]
+        }
+    ],
+
+    "browser_action": {
+      "default_icon": "./imgs/icons/type-r-32.png",
+      "default_title": "Type Racer Hacking",
+      "default_popup": "popup/index.html"
+    }
+}
